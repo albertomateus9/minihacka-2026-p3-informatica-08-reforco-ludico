@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reforço Escolar Lúdico | MiniHacka P3 Informática</title>
+    <meta name="description" content="Um site para apoiar o reforço escolar de forma lúdica, usando desafios, atividades interativas, pontuação e trilhas de aprendizagem." />
+    <meta name="theme-color" content="#c2410c" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body style="--primary: #c2410c; --secondary: #2563eb; --accent: #84cc16;">
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Reforço Escolar Lúdico">
+        <span class="brand-mark">08</span>
+        <span>Reforço</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#recursos">Recursos</a>
+        <a href="#exemplos">Exemplos</a>
+        <a href="#previa">Prévia</a>
+        <a href="#equipe">Equipe</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <h1>Reforço Escolar Lúdico</h1>
+          <p class="tagline">Atividades de reforço com jogos, desafios e progresso.</p>
+          <p>Um site para apoiar o reforço escolar de forma lúdica, usando desafios, atividades interativas, pontuação e trilhas de aprendizagem.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#previa">Começar reforço</a>
+            <a class="button button-secondary" href="#equipe">Conhecer equipe</a>
+          </div>
+          <ol class="step-list" aria-label="Fluxo principal"><li>Escolher matéria</li><li>Jogar desafio</li><li>Ver progresso</li></ol>
+        </div>
+        <div class="hero-media" aria-label="Visual do projeto">
+          <img src="assets/visual.svg" alt="Prévia visual do site Reforço Escolar Lúdico" />
+        </div>
+      </section>
+
+      <section class="section" id="recursos">
+        <div class="section-heading">
+          <span>Projeto da equipe 08</span>
+          <h2>Exemplo genérico ligado à ideia da equipe.</h2>
+        </div>
+        <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-index">01</span>
+          <h3>Jogos educativos</h3>
+          <p>Conteúdos de reforço aparecem como fases, cartas, desafios ou missões.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">02</span>
+          <h3>Pontuação e progresso</h3>
+          <p>O aluno acompanha acertos, sequência e temas dominados.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">03</span>
+          <h3>Trilhas por dificuldade</h3>
+          <p>Atividades se adaptam a conteúdos básicos, intermediários e avançados.</p>
+        </article></div>
+      </section>
+
+      <section class="section examples-section" id="exemplos">
+        <div class="section-heading">
+          <span>Exemplos de uso</span>
+          <h2>Dados fictícios para demonstrar o funcionamento.</h2>
+        </div>
+        <div class="examples-grid">
+        <article class="example-card">
+          <h3>Missão de matemática</h3>
+          <p>Resolver operações vira um desafio com fases e pontuação.</p>
+        </article>
+        <article class="example-card">
+          <h3>Cartas de revisão</h3>
+          <p>Perguntas rápidas ajudam a fixar conceitos antes da próxima aula.</p>
+        </article>
+        <article class="example-card">
+          <h3>Ranking saudável</h3>
+          <p>Progresso pessoal destaca evolução, não competição excessiva.</p>
+        </article></div>
+      </section>
+
+      <section class="section preview-section" id="previa">
+        <div class="preview-copy">
+          <span>Prévia interativa</span>
+          <h2>Troque o cenário e veja uma simulação.</h2>
+          <p data-demo-summary>Aluno resolve desafios curtos para avançar de fase.</p>
+          <div class="chip-row" aria-label="Opções da prévia">
+          <button class="chip is-active" type="button" data-scenario-title="Missão: frações" data-scenario-summary="Aluno resolve desafios curtos para avançar de fase." data-scenario-meta="Pontuação: 180 pts" data-scenario-detail="A atividade usa feedback imediato e dicas depois de erros.">Matemática</button>
+          <button class="chip" type="button" data-scenario-title="Cartas de interpretação" data-scenario-summary="Jogo mostra pequenos textos e perguntas de compreensão." data-scenario-meta="Sequência: 5 acertos" data-scenario-detail="A abordagem lúdica deixa o reforço mais leve e repetível.">Português</button>
+          <button class="chip" type="button" data-scenario-title="Trilha básica concluída" data-scenario-summary="Painel mostra temas dominados e próximos conteúdos." data-scenario-meta="Conquista desbloqueada" data-scenario-detail="O estudante visualiza sua evolução sem depender só de nota final.">Progresso</button></div>
+          <article class="demo-panel" aria-live="polite">
+            <span data-demo-meta>Pontuação: 180 pts</span>
+            <strong data-demo-title>Missão: frações</strong>
+            <p data-demo-detail>A atividade usa feedback imediato e dicas depois de erros.</p>
+          </article>
+          <button class="button button-primary" type="button" data-demo-action>Começar reforço</button>
+          <p class="counter" data-counter>Interações nesta visita: 0</p>
+        </div>
+        <div class="metric-grid">
+          <article class="metric-card">
+            <span>Fases</span>
+            <strong>12</strong>
+            <p>Atividades lúdicas.</p>
+          </article>
+          <article class="metric-card">
+            <span>Pontos</span>
+            <strong>840</strong>
+            <p>Progresso fictício.</p>
+          </article>
+          <article class="metric-card">
+            <span>Conquistas</span>
+            <strong>5</strong>
+            <p>Marcos desbloqueados.</p>
+          </article></div>
+      </section>
+
+      <section class="section team-section" id="equipe">
+        <div class="section-heading">
+          <span>Integrantes</span>
+          <h2>Funções da equipe no desenvolvimento.</h2>
+        </div>
+        <div class="team-grid">
+        <article class="member-card">
+          <span>Gerente de Ideias</span>
+          <strong>MICHELLE BRUNA BARBOSA DA SILVA</strong>
+        </article>
+        <article class="member-card">
+          <span>Designer</span>
+          <strong>Não informado</strong>
+        </article>
+        <article class="member-card">
+          <span>Construtor(a) HTML</span>
+          <strong>CRISTYAN JOSE MANGAS SOUZA</strong>
+        </article>
+        <article class="member-card">
+          <span>Estilista CSS</span>
+          <strong>NICOLLAS TEIXEIRA DE MELLO</strong>
+        </article></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>MiniHacka 2026-1 - 3º período de Informática (Integrado).</p>
+      <a href="#inicio">Voltar ao topo</a>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
